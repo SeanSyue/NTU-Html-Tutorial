@@ -1,0 +1,14 @@
+#header li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 0;
+    padding: 0 8px;
+}
+
+#nav>ul>.important {
+    background-color: yellow;
+}
+
+#nav>ul>li>.important {
+    background-color: greenyellow;
+}

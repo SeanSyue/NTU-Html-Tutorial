@@ -1,0 +1,23 @@
+/* 讓logo靠左 */
+#logo {
+    float: left;
+}
+
+/* 一般為了避免於之後潛在的元素產生衝突，故加上#header */
+#header nav {
+    float: right;
+}
+
+/* 
+使用float使得navigators按照左右排列
+因為用了float，就只佔據自己的空間
+float right則順序顛倒
+然而如果li太多會overflow
+*/
+#header li{
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}
